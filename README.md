@@ -1,6 +1,6 @@
-# FindR API
+# ScrapR
 
-FindR API is a Node.js application that aggregates real-time data from popular social media platforms like Reddit and Twitter. It employs official APIs to deliver comprehensive insights into market trends and consumer behaviors, displaying the results directly in your terminal.
+ScrapR is a Node.js application that aggregates real-time data from popular social media platforms like Reddit and Twitter. It employs official APIs to deliver comprehensive insights into market trends and consumer behaviors, displaying the results directly in your terminal.
 
 ## Features
 
@@ -28,3 +28,17 @@ FindR API is a Node.js application that aggregates real-time data from popular s
 git clone https://github.com/yourusername/findr-api.git
 cd findr-api
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Set Up Environment Variables
+Create a .env file in the project root directory:
+```bash
+touch .env
+```
+Add your API credentials to the .env file:
+
